@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200;300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,500;1,600;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+      font-family: Roboto Mono;
+      overflow-x: hidden;
+  }
+
+  .main .inner .inner1{
+    background: url(./img/find1.png) no-repeat center center/cover;
+  }
+  .main .inner .inner2{
+    background: url(./img/find2.png) no-repeat center center/cover;
+  }
+  .main .inner .inner1 .flexcontainer{
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+  }
+    h3:before{
+    content: '\2022'; /*bullet symbol*/
+    font-size: x-large;
+    margin-right: 5px;
+    padding-top: 5px;
+}
+h3{
+    font-size: xx-large;
+}
+h1{
+    padding-top: 30px;
+}
+.flexcontainer h4:last-child{
+    margin-bottom: 20px;
+}
+
+iframe{
+    border-radius: 20px;
+}
+iframe:hover {
+    opacity: .9;
+}
+.inner1 .map1, .inner1 .map2{
+    position: relative;
+    left: 300px;
+}
+.inner1 .map1{
+    margin-right: 100px;
+}
+.inner1 h4:hover , .inner2 h4:hover{
+background: rgb(54, 52, 52);
+color: white;
+padding: 8px;
+border: 1px solid white;
+border-radius: 5px;
+transition: .5s;
+}
+
+.lasth4{
+    width: 470px;
+}
+
+.flexcontainer2{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+.map3, .map4{
+    position: relative;
+    left: 660px;
+}
+
+.flexcontainer3{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+.inner1{
+    margin-bottom: 10px;
+}
+.inner2 h5{
+    padding: 40px;
+    font-size: large;
+
+}
+
+   .homebtn{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    
+}
+ .homebtn:hover{
+  filter: invert(1);
+}

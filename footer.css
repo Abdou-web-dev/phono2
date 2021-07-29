@@ -1,0 +1,10 @@
+.footer .footer-inner {
+    display: flex;
+    justify-content: center;
+    padding: .05em;
+    font-family: Festive;
+    font-size: 2.5em;
+    background-color: lightgrey;
+    margin-top: 5px;
+    font-weight: bolder;
+}

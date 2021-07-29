@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+/*@import url(navbarUtility.css);*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color : rgb(177, 177, 177) ;
+    --secondary-color : rgb(66, 66, 66) ;
+}
+body{
+    font-family: Roboto Mono, sans-serif;
+}
+header{
+    padding: 7em;
+    text-align: center;
+    background: url('./img/overlay.jpg') no-repeat bottom center/cover;
+    margin-bottom: 5px;
+}
+header h1{
+    font-size: 4em;
+    font-weight: 900;
+    color: white;
+    width: 500px;
+    margin-left: 600px;
+    transition: .5s;
+}
+header h1:hover{
+    color: rgba(255, 255, 255, 0.637);
+    background-color: rgba(0, 0, 0, 0.568);
+    border-radius: 40px;
+    letter-spacing: 5px;
+    width: 480px;
+}
+
+.container .div1-inner, .container .div2-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+}
+.container .div1-inner p , h2{
+    padding: 1em;
+    font-weight: bolder;
+}
+.container .div1-inner p:nth-child(2){
+    width: 1300px;
+}
+.container .div1-inner p:nth-child(2):hover{
+    letter-spacing: 5px;
+    transition: .5s;
+}
+.container .div1-inner h2:hover{
+    transition: .5s;
+    transform: translateY(15px);
+    padding-bottom: 2em;
+}
+.container .div1-inner {
+    margin-bottom: 5px;
+}
+
+.container .div2-inner h3 , p{
+    padding: 1em;
+}
+
+.container .div2-inner p{
+width: 1400px;
+font-family:Encode Sans SC;
+font-size: 1.2em;
+text-align: center;
+font-weight: 500;
+}
+.container .div2-inner h3{
+    font-weight: bolder; 
+    color: white;
+    font-size: 1.35em;
+
+}
+.container .div2-inner h3:hover{
+    font-size : 1.4em ;
+    font-family: Encode Sans SC;
+    background-color: rgb(136, 136, 136);
+    color: white;
+    border-radius: 10px;
+    transition: .3s ease-in;
+    text-transform: uppercase;
+
+}
+.container .div2-inner p:hover{
+    letter-spacing: 5px ;
+    transition: .2s ease-in;
+    font-family: Roboto Mono;
+}
+.container .div2-inner p:last-child:hover{
+    padding-bottom: 60px;
+}
+ /* sidebarlink.css */
+ 
+.links{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    justify-content: space-between;
+    position: fixed;
+}
+.links a{
+    display: inline-block;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 90%;
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-weight: 400;
+    border: 1px solid rgb(45, 51, 51) ;
+    background-color: rgba(43, 105, 155, 0.801);
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+
+.returnhome a:hover{
+    color: rgb(45, 51, 51);
+    font-size: 1.15em;
+    font-weight: 900;
+    border: 1.5px solid rgb(39, 43, 43) ;
+    background-color: rgb(247, 238, 238);
+    border-radius: 12px;
+    padding: 5px;
+}
+.returnhome .btn::before{
+    content:url(./img/home16px.png);
+}
+.returnhome .btn2::before{
+    content: url(./img/new-product.png);
+}
+.returnhome .btn3::before{
+    content: url(./img/dollar.png);
+}
+.returnhome .btn4::before{
+    content: url(./img/letter.png);
+}
+
+
+.footer .footer-inner {
+    display: flex;
+    justify-content: center;
+    padding: .05em;
+    font-family: Festive;
+    font-size: 2.5em;
+    background-color: lightgrey;
+    margin-top: 5px;
+    font-weight: bolder;
+}
+
+#inner1:hover, #inner2:hover{
+    background-color: rgb(75, 73, 73);
+    color:white;
+}
+
+.footer-inner::after{
+    content: url(./img/footer_icon.png);
+    margin-top: 15px;
+}
