@@ -1,0 +1,189 @@
+@import url(sidebarlinks.css);
+@import url(footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.returnhome .btn2::before{
+    content: url(./img/information-button.png);
+}
+.returnhome .btn4::before{
+    content: url(./img/products.png);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+      font-family: Encode Sans SC;
+      overflow-x: hidden;
+  }
+.main{
+    background: url(./img/imageedit_10.png) no-repeat center center/cover;
+}
+
+.submain{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.submain input{
+margin-bottom: 10px;
+}
+
+
+.main .inner{
+    padding: 100px 0;
+    padding-bottom: 60px;
+    text-align: center;
+    line-height: 2;
+}
+.submain .envelope:hover{
+    transition: .5s;
+filter: invert(.4);
+}
+.main .inner .horizontal_line{
+    margin-top: 30px;
+    border: 3px solid rgba(17, 5, 5, 0.795);
+    border-radius: 10px;
+    width: 30vw;
+    margin-left: 35%;
+}
+
+.submain .form input[type=text],input[type=email]{
+    padding: 7px 10px;
+    width: 250px;
+}
+
+.form{
+    margin-left: 50px;
+}
+.form p{
+    display: block;
+    font-family:Encode Sans SC ;
+    font-size: large;
+    width: 250px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form input{
+    border: none;
+    border-radius: 10px;
+}
+.form input:focus{
+    transition: .5s;
+    border:  1px solid black;
+    background-color: darkgrey;
+    border-radius: 10px;
+}
+.form select{
+    transform: scale(1.5);
+    margin-left: 50px;
+    margin-top: 10px;   
+     margin-bottom: 10px;
+     font-family: Encode Sans SC;
+}
+
+.envelope{
+    position:relative;
+    top: 240px;
+    left: 400px;
+}
+.form textarea{
+    border-radius: 10px;
+}
+.form .textarea:focus{
+    transition: .5s ease-in;
+    width: 450px;
+    border-radius: 10px;
+}
+
+.boutons{
+    position: relative;
+    left: 1100px;
+    margin-top: 30px;
+}
+.boutons .btn{
+    margin-right: 30px;
+    padding: 12px;
+    font-family: Encode Sans SC;
+    font-weight: bolder;
+    border-radius: 15px;
+    border: 2px solid black;
+    transform: scale(1.2);
+    background-color: rgba(47, 58, 58, 0.418);
+}
+.boutons .btn:hover{
+transition: .5s;
+transform: scale(1.4);
+background-color: rgba(0, 0, 0, 0.774);
+color: white;
+cursor: pointer;
+}
+
+.nothappy{
+    margin-top: 80px;
+    padding-bottom: 80px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nothappy h1{
+    margin: 0 35px;
+}
+.nothappy a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+.nothappy a:hover{
+    background-color: rgba(128, 128, 128, 0.95);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer .footer-inner {
+    display: flex;
+    justify-content: center;
+    padding: .05em;
+    font-family: Festive;
+    font-size: 2.5em;
+    background-color: lightgrey;
+    margin-top: 5px;
+    font-weight: bolder;
+}
+.footer-inner:hover{
+    filter: invert(1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transform: scale(0.95);
+    border-radius: 15px;
+    transition: .5s;
+}
+.footer-inner::after{
+    content: url(./img/footer_icon.png);
+    margin-top: 15px;
+}
